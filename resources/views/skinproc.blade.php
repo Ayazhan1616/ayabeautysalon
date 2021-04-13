@@ -179,26 +179,26 @@ a.mail, a.mail:hover, a.mail:active{
     
             <nav class="navigation">
                 <ul class="nonelist">
-                    <li>
-                        <a data-section-item="uvod" href="http://localhost/project/public/main" style="text-decoration: none; color: white;">
+                <li>
+                        <a data-section-item="uvod" href="https://ayabeautysalon.herokuapp.com/main" style="text-decoration: none; color: white;">
                         {{ __('lang.home') }}
                         </a>
                     </li>
     
                     <li>
-                        <a data-section-item="o-salone" href="http://localhost/project/public/main#o-salone" style="text-decoration: none; color:  white;"> 
+                        <a data-section-item="o-salone" href="https://ayabeautysalon.herokuapp.com/main#o-salone" style="text-decoration: none; color:  white;"> 
                         {{ __('lang.about') }}
                         </a>
                     </li>
     
                     <li>
-                        <a data-section-item="osetrenia" href="http://localhost/project/public/main#osetrenia" style="text-decoration: none; color:  white;">
+                        <a data-section-item="osetrenia" href="https://ayabeautysalon.herokuapp.com/main#osetrenia" style="text-decoration: none; color:  white;">
                         {{ __('lang.procedures') }}
                         </a>
                     </li>
     
                     <li>
-                        <a data-section-item="predaj" href="http://localhost/project/public/main#predaj" style="text-decoration: none; color:  white;">
+                        <a data-section-item="predaj" href="https://ayabeautysalon.herokuapp.com/mainn#predaj" style="text-decoration: none; color:  white;">
                         {{ __('lang.team') }}
                         </a>
                     </li>
@@ -385,19 +385,19 @@ var myChart = new Chart(ctx, {
 <div class="tab-js-content-wrapper">
     <div class="tab-js-content" data-fx="2" data-tab="standardne">
    
-    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/20/9u5CuJLuLys9hS.jpg" href="http://localhost/project/public/skin" style="text-decoration: none; color:  #6a3332;"> 
+    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/20/9u5CuJLuLys9hS.jpg" href="https://ayabeautysalon.herokuapp.com/skin" style="text-decoration: none; color:  #6a3332;"> 
         <span>{{ __('lang.skin') }}</span>
     </a>
         <br> <hr>              
-    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/18/yU849Sdo8SNCXn.jpg" href="http://localhost/project/public/manic" style="text-decoration: none; color:  #6a3332;">
+    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/18/yU849Sdo8SNCXn.jpg" href="https://ayabeautysalon.herokuapp.com/manic" style="text-decoration: none; color:  #6a3332;">
         <span>{{ __('lang.manic') }}</span>
     </a>
         <br>   <hr>               
-    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/25/JJG8xxQenUYeFY.jpg" href="http://localhost/project/public/make" style="text-decoration: none; color:  #6a3332;">
+    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/25/JJG8xxQenUYeFY.jpg" href="https://ayabeautysalon.herokuapp.com/make" style="text-decoration: none; color:  #6a3332;">
         <span>{{ __('lang.make') }}</span>
     </a>
     <br> <hr>  
-    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/25/JJG8xxQenUYeFY.jpg" href="http://localhost/project/public/hair" style="text-decoration: none; color:  #6a3332;">
+    <a class="link treatment arrow text-color-brown" data-img="http://ss.art4web.co/storage/treatments/25/JJG8xxQenUYeFY.jpg" href="https://ayabeautysalon.herokuapp.com/hair" style="text-decoration: none; color:  #6a3332;">
         <span>{{ __('lang.hair') }}</span>
     </a>
     </div>
