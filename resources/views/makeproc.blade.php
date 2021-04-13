@@ -198,13 +198,13 @@ a.mail, a.mail:hover, a.mail:active{
                     </li>
     
                     <li>
-                        <a data-section-item="predaj" href="https://ayabeautysalon.herokuapp.com/mainn#predaj" style="text-decoration: none; color:  white;">
+                        <a data-section-item="predaj" href="https://ayabeautysalon.herokuapp.com/main#predaj" style="text-decoration: none; color:  white;">
                         {{ __('lang.team') }}
                         </a>
                     </li>
     
                     <li>
-                        <a data-section-item="kontakt" href="http://localhost/project/public/main#kontakt" style="text-decoration: none; color:  white;">
+                        <a data-section-item="kontakt" href="https://ayabeautysalon.herokuapp.com/main#kontakt" style="text-decoration: none; color:  white;">
                         {{ __('lang.contact') }}
                         </a>
                     </li>
