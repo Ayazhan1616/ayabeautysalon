@@ -1,6 +1,6 @@
 <?php
 return [
-    'salon_name'=>'Beauty salon',
+    'salon_name'=>'Beauty salon "Aya"',
     'home' => 'Home',
     'about'=> 'About',
     'procedures' => 'Beauty procedures',

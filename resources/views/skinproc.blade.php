@@ -235,7 +235,7 @@ a.mail, a.mail:hover, a.mail:active{
 <br>
 <p style="color:  #6a3332;">{{ __('lang.skintxt') }}</p>
 <img src="http://www.hellomissniki.com/wp-content/uploads/2019/10/iStock-899611236-1.jpg" style="width: 200px; height: 150px">
-<img src="https://lh3.googleusercontent.com/proxy/smkYBnsoNTtxNQabZlQ4bvvDg1rYpWBUz95gsYAxSLZYY4bAibGk_fnDR3-uz_bobI_O2_8f1pSCaHefZ7A9uMg3Ny9vtyTUJTEaYbWNs3v_-zvlJNADzdY" style="width: 200px; height: 150px">
+<img src="https://www.heavenlyblissbeauty.com.au/uploads/126/facials.jpg" style="width: 200px; height: 150px">
 <canvas id="myChart" width="400" height="300"></canvas>
 <script>
 var ctx = document.getElementById('myChart').getContext('2d');
