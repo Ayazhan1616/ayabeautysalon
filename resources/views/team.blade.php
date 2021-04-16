@@ -390,7 +390,8 @@ a.mail, a.mail:hover, a.mail:active{
         </h2>
         <p style="color: #6a3332; margin: 0px 100px;">{{ __('lang.contact_text') }}
         </p>
-        <a style="font_size: 20px; margin-left: 80px;" class="mail" href = "mailto: zhaksykeldievaayazhan@gmail.com" target="_blank" rel="noopener">
+        <img src="https://image.flaticon.com/icons/png/512/81/81223.png" style="width: 180px; height: 180px; margin: 20px 210px;">
+        <a style="font_size: 15px; margin-left: 60px;" class="mail" href = "mailto: zhaksykeldievaayazhan@gmail.com" target="_blank" rel="noopener">
         {{ __('lang.mail') }}
           </a>
      
