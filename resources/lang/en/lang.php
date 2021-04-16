@@ -27,7 +27,7 @@ return [
     'csm'=> 'cosmetologist',
     'lh' => 'Lyudmila Hurshudyan',
     'adm'=> 'Administrator',
-    'mail'=> 'Our e-mail',
+    'mail'=> 'zhaksykeldievaayazhan@gmail.com',
     'skintxt' => 'Does your skin have fine lines? Age spots? Acne scars or other issues you’d like to clear up? Cosmetic treatments may help improve the look and feel of your skin. Some use heat to trigger collagen production. Others fill in wrinkles or work like sandpaper to smooth imperfections. These treatments are less invasive than surgery. ',
     'oprocedures' => 'Other beauty procedures',
     'booking' => 'Online booking',
@@ -44,5 +44,6 @@ return [
     'maketxt' => 'The most important reasons to wear makeup is that it makes you feel more confident. You will find that makeup can help you feel more confident, i.e Girls with makeup will be more confident, and ready to take on the day. This added sense of control is a necessity for giving you the positive attitude that you deserve when you’re heading out in the world.',
     'hairtxt' => 'Hairs are one of the most important parts of a human body which to an extent reflects the personality of the individual. However, most people tend to neglect their hair and instead concentrate on their face and physique. They feel that any hairstyle is fine as long as it does not make them look terrible. They might be right that most hairstyles might work out for them. But they do not realize that they are missing out the opportunity to enhance their beauty and personality by not selecting the appropriate hairstyle.',
     'chart' => 'The most asked types of manicure', 
+    'contact_text' => 'If you have any questions or suggestions, we are always ready to answer and help.',
 ];
 ?>

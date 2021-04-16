@@ -312,7 +312,7 @@ var myChart3 = new Chart(ctx, {
                 </select>
 
                 <h6>Choose a recording time</h6>
-                <input type="date" id="recording_time" name="recording_time" class="form-control">
+                <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
                 <button id="submit" class="btn btn-outline-light">Submit</button>
             </div>  

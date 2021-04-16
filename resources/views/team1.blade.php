@@ -387,9 +387,11 @@ a.mail, a.mail:hover, a.mail:active{
 <div data-section="kontakt">
     <div class="content-box cosmetics-sale" data-section="kontakt" id="kontakt"  style="padding: 5px 30px 30px 30px;">
     <div class="anim-wrapper" data-animation-scroll="partners">
-        <h2 class="text-color-white has-text-centered" style="padding: 20px 30px 30px 30px; color: #6a3332;">
+    <h2 class="text-color-white has-text-centered" style="padding: 20px 30px 30px 30px; color: #6a3332;">
         {{ __('lang.contact') }}
         </h2>
+        <p style="color: #6a3332;">{{ __('lang.contact_text') }}
+        </p>
         <a class="mail" href = "mailto: zhaksykeldievaayazhan@gmail.com" target="_blank" rel="noopener">
         {{ __('lang.mail') }}
           </a>
