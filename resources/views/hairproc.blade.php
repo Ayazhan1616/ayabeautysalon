@@ -1,5 +1,3 @@
-@extends('home')
-@section('content')
 <!DOCTYPE html>
 <html>
     <head>
@@ -367,6 +365,4 @@ a.mail, a.mail:hover, a.mail:active{
 </div>
 
    </body>
-
 </html>
-@endsection

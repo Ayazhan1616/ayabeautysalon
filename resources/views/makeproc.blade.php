@@ -1,5 +1,4 @@
-@extends('home')
-@section('content')
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -394,4 +393,3 @@ var myChart3 = new Chart(ctx, {
    </body>
 
 </html>
-@endsection
