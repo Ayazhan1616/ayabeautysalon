@@ -390,9 +390,9 @@ a.mail, a.mail:hover, a.mail:active{
     <h2 class="text-color-white has-text-centered" style="padding: 20px 30px 30px 30px; color: #6a3332;">
         {{ __('lang.contact') }}
         </h2>
-        <p style="color: #6a3332;">{{ __('lang.contact_text') }}
+        <p style="color: #6a3332; margin: 0px 100px;">{{ __('lang.contact_text') }}
         </p>
-        <a class="mail" href = "mailto: zhaksykeldievaayazhan@gmail.com" target="_blank" rel="noopener">
+        <a style="font_size: 20px; margin-left: 80px;" class="mail" href = "mailto: zhaksykeldievaayazhan@gmail.com" target="_blank" rel="noopener">
         {{ __('lang.mail') }}
           </a>
      
