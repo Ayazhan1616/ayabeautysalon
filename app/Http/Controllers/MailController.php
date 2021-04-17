@@ -12,9 +12,10 @@ class MailController extends Controller
     public function send(Request $request)
     {
         $objDemo = new \stdClass();
-        $objDemo->sender = 'Ayazhan.Zhaxykeldiyeva';
-        $objDemo->receiver = 'Ayazhan.Zhaxykeldiyeva';
+        $objDemo->sender = 'Ayazhan Zhaxykeldiyeva';
+        $objDemo->receiver = 'Ayazhan Zhaxykeldiyeva';
 
         Mail::to("190103195@stu.sdu.edu.kz")->send(new SendMail($objDemo));
+        return back()->with('success', 'Thanks for booking!');
     }
 }

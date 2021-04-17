@@ -1,4 +1,4 @@
 Hello {{ $demo->receiver }}
-Welcome to our beauty salon
+You have successfully booked. We are looking forward to seeing you in our salon.
 Thank You, 
 {{ $demo->sender }}

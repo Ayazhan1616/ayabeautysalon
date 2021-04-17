@@ -303,7 +303,7 @@ var myChart = new Chart(ctx, {
                 @endforeach
             @endif
 
-         <form id="record_form" action="send" method="POST">
+         <form id="record_form" action="{{ url('mail/send')}}" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
                 <h6>Name<h6>
@@ -328,7 +328,7 @@ var myChart = new Chart(ctx, {
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <button id="submit" class="btn btn-outline-light">Submit</button>
+                <a id="submit" href="{{ url('mail/send') }}" class="btn btn-outline-light">Submit</a>
             </div>  
 </form>
 </div>
