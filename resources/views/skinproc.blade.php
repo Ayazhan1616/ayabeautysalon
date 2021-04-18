@@ -328,7 +328,7 @@ var myChart = new Chart(ctx, {
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <input  type="submit" class="btn btn-outline-light" id="submit" value="Submit">
+                <input onClick="window.location.href='{{ url('mail/send') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
 </div>
