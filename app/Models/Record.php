@@ -10,6 +10,6 @@ class Record extends Model
     use HasFactory;
     protected $table = 'records';
     protected $fillable = [
-        'name', 'phone_number','e_mail','master_name', 'procedure_name', 'recording_time'
+        'id','name', 'phone_number','e_mail','master_name', 'procedure_name', 'recording_time'
     ];
 }

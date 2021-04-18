@@ -23,7 +23,6 @@ class AjaxController extends Controller {
       $record->procedure_name = $request->input('procedure_name');
       $record->recording_time = $request->input('recording_time');
 */
-      $record->id = $request->id;
       $record->name = $request->name;
       $record->phone_number = $request->phone_number;
       $record->e_mail = $request->e_mail;
