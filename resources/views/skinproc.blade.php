@@ -328,7 +328,7 @@ var myChart = new Chart(ctx, {
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <input onClick="window.location.href='{{ url('mail/send') }}'" type="submit" class="btn btn-outline-light" value="Submit">>
+                <input onClick="window.location.href='{{ url('mail/send') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
 </div>
@@ -341,7 +341,9 @@ var myChart = new Chart(ctx, {
     
    <script type="text/javascript">
 
-    $('#record_form').on('submit',function(event){
+$(document).ready(function() {
+   
+   $('#submit').on('click', function() {
         event.preventDefault();
 
         let name = $('#name').val();
