@@ -46,5 +46,3 @@ Route::get('/main',   [UploadController::class, 'uploadForm']);
 Route::post('/main', [UploadController::class, 'uploadSubmit']);
 
 Route::get('mail/send',  [MailController::class, 'send']);
-
-Route::post('/skin', [RecordController::class, 'store']);
