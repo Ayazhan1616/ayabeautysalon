@@ -32,7 +32,7 @@ class AjaxController extends Controller {
 
       $record->save();
       
-      return response()->json(['success'=>'Form is successfully submitted!']);
+      return back()->with('success', 'Thanks for booking!');
 
     }
 }
