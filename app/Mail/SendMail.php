@@ -31,7 +31,6 @@ class SendMail extends Mailable
     {
         return $this->subject('Beauty Salon')
                     ->from('zhaksykeldievaayazhan@gmail.com')
-                    ->to($this->demo->e_mail)
                     ->view('mails.demo')
                     ->text('mails.demo_plain');
     }
