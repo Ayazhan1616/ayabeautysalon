@@ -11,6 +11,7 @@ class MailController extends Controller
     //
     public function send(Request $request)
     {
+        
         $objDemo = new \stdClass();
         $objDemo->sender = 'Ayazhan Zhaxykeldiyeva';
         $objDemo->receiver = 'Ayazhan Zhaxykeldiyeva';
