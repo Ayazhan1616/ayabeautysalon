@@ -303,7 +303,7 @@ var myChart = new Chart(ctx, {
                 @endforeach
             @endif
 
-         <form id="record_form" action="{{ url('send')}}" method="POST">
+         <form id="record_form" action="{{ url('mail/send')}}" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
                 <h6>Name<h6>
