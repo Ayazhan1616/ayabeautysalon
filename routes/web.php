@@ -41,11 +41,11 @@ Route::get('lang/{locale}', [LocalizationController::class, 'index']);
 
 Route::get('skin', [AjaxController::class, 'create']);
 Route::post('skin', [AjaxController::class, 'store']);
-Route::get('manic', [AjaxController::class, 'create']);
+//Route::get('manic', [AjaxController::class, 'create']);
 Route::post('manic', [AjaxController::class, 'store']);
-Route::get('hair', [AjaxController::class, 'create']);
+//Route::get('hair', [AjaxController::class, 'create']);
 Route::post('hair', [AjaxController::class, 'store']);
-Route::get('make', [AjaxController::class, 'create']);
+//Route::get('make', [AjaxController::class, 'create']);
 Route::post('make', [AjaxController::class, 'store']);
 
 Route::get('/main',   [UploadController::class, 'uploadForm']);
