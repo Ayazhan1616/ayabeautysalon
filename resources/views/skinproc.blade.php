@@ -369,6 +369,9 @@ $(document).ready(function() {
             console.log(response);
           },
          });
+         $.ajax({
+          url: "/mail/send",
+          type:"POST",
         });
       </script>
 
