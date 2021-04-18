@@ -321,7 +321,7 @@ var myChart2 = new Chart(ctx, {
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <input onClick="window.location.href='{{ url('skin') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
+                <input onClick="window.location.href='{{ url('manic') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
        
@@ -348,7 +348,7 @@ $(document).ready(function() {
         let recording_time = $('#recording_time').val();
 
         $.ajax({
-          url: "/skin",
+          url: "/manic",
           type:"POST",
           data:{
             "_token": "{{ csrf_token() }}",
