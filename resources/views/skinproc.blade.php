@@ -329,7 +329,7 @@ var myChart = new Chart(ctx, {
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
                 <input onClick="window.location.href='{{ url('skin') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
-                <a style="margin:0px 100px" href="{{ url('mail/send') }}" class="btn btn-outline-light">{{ __('lang.email_me') }}</a>
+                <a  href="{{ url('mail/send') }}" class="btn btn-outline-light">{{ __('lang.email_me') }}</a>
             </div>  
 </form>
 </div>
