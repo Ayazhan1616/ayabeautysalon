@@ -147,7 +147,7 @@ a.mail, a.mail:hover, a.mail:active{
     margin-bottom:0px;
 }
 #submit{
-    margin: 15px 15px 15px 210px;
+    margin: 15px 15px 15px 150px;
 }
 .form-control{
     margin-bottom: 20px;
