@@ -37,7 +37,7 @@ return [
     'upload' => 'Your resume upload successfully!',
     'uploadwarning' => 'Warning! Sorry Only Upload png , jpg , doc',
     'fullname' => 'Your full name:',
-    'resume' => 'Upload resume (can attach more than one file):',
+    'resume' => 'Upload resume:',
     'upl' => 'Upload',
     'placeh' => 'Please, enter your full name',
     'manictxt' => 'A manicure is a beauty treatment for the hands. Although, the treatment is applied directly to the nails, the entire hand actually gets the benefit. The primary purpose of a manicure is to maintain the hands overall health.',
