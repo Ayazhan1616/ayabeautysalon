@@ -331,9 +331,13 @@ var myChart = new Chart(ctx, {
                 <input onClick="window.location.href='{{ url('skin') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
-       
+</div>
+<div>
+<p>{{ __('lang.email_txt') }}</p>
+<a href="{{ url('mail/send') }}" class="btn btn-outline-light">{{ __('lang.email_me') }}</a>
 </div>
 </div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

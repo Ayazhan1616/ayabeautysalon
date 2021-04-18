@@ -45,5 +45,7 @@ return [
     'hairtxt' => 'Hairs are one of the most important parts of a human body which to an extent reflects the personality of the individual. However, most people tend to neglect their hair and instead concentrate on their face and physique. They feel that any hairstyle is fine as long as it does not make them look terrible. They might be right that most hairstyles might work out for them. But they do not realize that they are missing out the opportunity to enhance their beauty and personality by not selecting the appropriate hairstyle.',
     'chart' => 'The most asked types of manicure', 
     'contact_text' => 'If you have any questions or suggestions, we are always ready to answer and help.',
+    'email_me' => 'Email me',
+    'email_txt' => 'If you have not yet decided to sign up, if you want to get advice and more information about our procedures, click on the button below and we will contact you.',
 ];
 ?>
