@@ -262,7 +262,7 @@ a.mail, a.mail:hover, a.mail:active{
                 @endforeach
             @endif
 
-         <form id="record_form" action="send" method="POST">
+         <form id="record_form" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
                 <h6>Name<h6>
@@ -288,9 +288,10 @@ a.mail, a.mail:hover, a.mail:active{
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <a id="submit" href="{{ url('mail/send') }}" class="btn btn-outline-light">Submit</a>
+                <input onClick="window.location.href='{{ url('skin') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
+       
 </div>
 </div>
 
@@ -301,7 +302,9 @@ a.mail, a.mail:hover, a.mail:active{
     
    <script type="text/javascript">
 
-    $('#record_form').on('submit',function(event){
+$(document).ready(function() {
+   
+   $('#submit').on('click', function() {
         event.preventDefault();
 
         let name = $('#name').val();
