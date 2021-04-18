@@ -46,6 +46,6 @@ return [
     'chart' => 'The most asked types of manicure', 
     'contact_text' => 'If you have any questions or suggestions, we are always ready to answer and help.',
     'email_me' => 'Email me',
-    'email_txt' => 'If you have not yet decided to submit, if you want to get advice and more information about our procedures, click on the button below and we will contact you.',
+    'email_txt' => 'If you have not yet decided to submit or if you want to get advice and more information about our procedures, click on the button below and we will contact you.',
 ];
 ?>

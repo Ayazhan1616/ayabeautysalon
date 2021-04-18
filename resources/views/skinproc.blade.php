@@ -149,7 +149,7 @@ a.mail, a.mail:hover, a.mail:active{
     margin-bottom:0px;
 }
 #submit{
-    margin: 15px 15px 15px 210px;
+    margin: 15px 15px 15px 150px;
 }
 .form-control{
     margin-bottom: 20px;
@@ -302,7 +302,8 @@ var myChart = new Chart(ctx, {
                     </div>
                 @endforeach
             @endif
-            <p style="margin:0px 100px">{{ __('lang.email_txt') }}</p>
+            <p style="margin:0px 50px">{{ __('lang.email_txt') }}</p>
+            <br>
          <form id="record_form" method="POST">
          {{ csrf_field() }}
       <div class="form-group">

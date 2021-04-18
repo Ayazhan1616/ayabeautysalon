@@ -295,7 +295,8 @@ var myChart2 = new Chart(ctx, {
                     </div>
                 @endforeach
             @endif
-
+            <p style="margin:0px 50px">{{ __('lang.email_txt') }}</p>
+            <br>
          <form id="record_form" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
@@ -322,6 +323,8 @@ var myChart2 = new Chart(ctx, {
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
                 <input onClick="window.location.href='{{ url('manic') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
+                <a  href="{{ url('mail/send') }}" class="btn btn-outline-light">{{ __('lang.email_me') }}</a>
+            
             </div>  
 </form>
        

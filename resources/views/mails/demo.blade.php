@@ -1,3 +1,3 @@
 Hello <i>{{ $demo->receiver }}</i>
-<p>You have successfully booked. We are looking forward to seeing you in our salon.</p>
+<p>Thank you for your interest. What questions do you have? How can we help you?</p>
 Thank You

@@ -261,7 +261,8 @@ a.mail, a.mail:hover, a.mail:active{
                     </div>
                 @endforeach
             @endif
-
+            <p style="margin:0px 50px">{{ __('lang.email_txt') }}</p>
+            <br>
          <form id="record_form" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
@@ -289,6 +290,8 @@ a.mail, a.mail:hover, a.mail:active{
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
                 <input onClick="window.location.href='{{ url('hair') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
+                <a  href="{{ url('mail/send') }}" class="btn btn-outline-light">{{ __('lang.email_me') }}</a>
+            
             </div>  
 </form>
        
