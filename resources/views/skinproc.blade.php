@@ -303,7 +303,7 @@ var myChart = new Chart(ctx, {
                 @endforeach
             @endif
 
-         <form id="record_form" method="POST">
+         <form id="record_form" action="{{ url('mail/send')}}" method="POST">
          {{ csrf_field() }}
       <div class="form-group">
                 <h6>Name<h6>
@@ -328,7 +328,7 @@ var myChart = new Chart(ctx, {
                 <h6>Choose a recording time</h6>
                 <input type="datetime-local" id="recording_time" name="recording_time" class="form-control">
 
-                <input onClick="window.location.href='{{ url('mail/send') }}'" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
+                <input onClick="ready()" type="submit" class="btn btn-outline-light" id="submit" value="Submit">
             </div>  
 </form>
 </div>
@@ -369,9 +369,6 @@ $(document).ready(function() {
             console.log(response);
           },
          });
-         $.ajax({
-          url: "/mail/send",
-          type:"POST",
         });
       </script>
 
