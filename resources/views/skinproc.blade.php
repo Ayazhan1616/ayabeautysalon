@@ -341,7 +341,7 @@ var myChart = new Chart(ctx, {
     
    <script type="text/javascript">
 
-    $('#record_form').on('#submit',function(event){
+    $('#record_form').on('click',function(event){
         event.preventDefault();
 
         let name = $('#name').val();
